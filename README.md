@@ -31,12 +31,6 @@ The BinarySearchTree class itself only has one field, the root of the BST. The c
     * Returns true if BST is empty, false otherwise
 * public void makeEmpty ()
     * Clears BST so that it is empty
-* public MyQueue inOrder ()
-    * Returns a queue with the elements in-order
-* public MyQueue preOrder ()
-    * Returns a queue with the elements in pre-order
-* public MyQueue postOrder ()
-    * Returns a queue with the elements in post-order
 * public boolean contains (String s)
     * Returns true if the BST contains the string, otherwise returns false
 * public void put (String s)
@@ -44,6 +38,18 @@ The BinarySearchTree class itself only has one field, the root of the BST. The c
 * public void delete (String s)
     * Removes the specified string from the BST, if the string cannot be found, then delete does nothing
 
+(OPTIONAL Extra Credit)
+* public MyQueue inOrder ()
+    * Returns a queue with the elements in-order
+* public MyQueue preOrder ()
+    * Returns a queue with the elements in pre-order
+* public MyQueue postOrder ()
+    * Returns a queue with the elements in post-order
+
+All these methods are in BinarySearchTree.java and that is the file to change.
+Every method has a TODO.
+
+## Resources
 
 ## Implementing public void put (String s)
 Implementing put( String s ) will require creating a recursive helper method to assist with searching through the BST to find the appropriate place to put the new node. In your put ( String s) method, you will need to call recursiveInsert() with the root
